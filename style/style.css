@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins");
+
+:root{
+    --primary-color: #800080;
+    --secondary-color: 	#be29ec;
+    --hover-color: #efbbff;
+    --default-text-color: #ffffff;
+    --overlay: rgba(140, 20, 252, 0.6);
+}
+*{
+    /* transition: all 0.8s ease-in; */
+}
+body{
+    position: relative;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1em;
+    color: var(--default-text-color) !important;
+    word-wrap: none;
+    line-height: 3px;
+    box-sizing: border-box;
+}
+a{
+    color: var(--default-text-color) !important;
+}
+a:hover{
+    color: var(--hover-color) !important;
+}
+
+
+
+
+
+/********************* 
+        Navbar 
+*********************/
+.navbar{
+    background-color: transparent;
+    border-bottom: 1px solid var(--hover-color);
+}
+.navbar ul li{
+    margin-right: 15px;
+    margin-top: 10px;
+}
+
+
+
+
+/********************* 
+        Header 
+**********************/
+.home-section{
+    background: url('../img/header.jpeg') center center/cover no-repeat;
+    background-attachment: fixed;
+    min-height: 100vh;
+}
+.home-overlay{
+    background-color: var(--overlay);
+    min-height: 100vh;
+    width: 100%;
+}
+.home-inner{
+    padding-top: 30vh;
+}
+.buttons{
+    margin-top: 20px;
+}
+.header-btn1{
+    width: 15%;
+    display: inline-block;
+    border: 1px solid white;
+    border-radius: 20px;
+    color: white;
+}
+.header-btn1:hover{
+    color: white;
+    background-color: var(--secondary-color);
+    border: 1px solid var(--secondary-color);
+}
+.header-btn2{
+    width: 15%;
+    display: inline-block;
+    border-radius: 20px;
+    color: white;
+    background-color: var(--secondary-color) !important;
+}
+.header-btn2:hover{
+    color: white;
+    background-color: transparent !important;
+    border: 1px solid white;
+}
+
+
+
+/********************* 
+        About 
+**********************/
+#about{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.about-col{
+    color: black;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.about-ul{
+    margin-top:10px; 
+    margin-left: -30px;
+    list-style: none;
+    font-size: 20px;
+}
+.fas{
+    padding: 10px;
+    color: var(--primary-color);
+}
+.about-btn1{
+    background-color: var(--secondary-color);
+    color: white;
+    width: 30%;
+    display: inline-block;
+    border-radius: 20px;
+}
+.about-btn1:hover{
+        color: black;
+        background-color: transparent !important;
+        border: 1px solid black;
+}
+
+
+

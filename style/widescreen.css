@@ -1,0 +1,27 @@
+/* Header */
+.home-inner{
+    padding-top: 30vh;
+}
+.header-btn1{
+    width: 20%;
+}
+.header-btn2{
+    width: 20%;
+}
+
+/* About */
+.about-col{
+    text-align: center;
+}
+.about-h1{
+    font-size: 30px;
+}
+.about-p{
+    font-size: 18px;
+}
+.about-ul{
+    font-size: 18px;
+}
+.about-btn1{
+    width: 50%;
+}

@@ -1,0 +1,18 @@
+/* Header */
+.header-h1{
+    font-size: 30px;
+}
+.header-p{
+    font-size:18px;
+}
+.home-inner{
+    display: flex;
+    padding-top: 30vh;
+    text-align: center;
+}
+.header-btn1{
+    width: 45%;
+}
+.header-btn2{
+    width: 45%;
+}
