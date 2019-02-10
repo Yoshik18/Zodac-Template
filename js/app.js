@@ -1,3 +1,5 @@
+
+
 //Smooth Scrolling
 $('.navbar a, .btn').on('click', function(e){
     // console.log('Logged');
@@ -7,7 +9,7 @@ $('.navbar a, .btn').on('click', function(e){
             const hash = this.hash;
 
             $('html, body').animate({
-                scrollTop: $(hash).offset().top
+                scrollTop: $(hash).offset().top-50
             },
             800
             );
@@ -23,3 +25,17 @@ window.addEventListener('scroll', function(){
         nav.setAttribute('style', 'background-color:transparent !important');
     }
 })
+
+
+
+
+
+
+
+
+
+
+
+
+
+

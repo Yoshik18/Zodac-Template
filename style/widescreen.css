@@ -25,3 +25,21 @@
 .about-btn1{
     width: 50%;
 }
+
+
+/* Featured */
+.featured-img img{
+    width: 350px;
+    height: 350px;
+ }
+.featured-overlay h1{
+    font-size: 24px;
+    font-weight: 600;
+}
+.featured-overlay p{
+    font-size: 14px;
+    font-weight: 200;
+}
+.featured-btn{
+    font-size: 14px;
+}
