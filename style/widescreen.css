@@ -43,3 +43,9 @@
 .featured-btn{
     font-size: 14px;
 }
+
+
+/* Team */
+.social-link:nth-child(1){
+   padding-left: 30px;
+}

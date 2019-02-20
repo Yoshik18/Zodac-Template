@@ -9,3 +9,11 @@
 .header-btn2{
     width: 30%;
 }
+
+/* Sponsors */
+#sponsors{
+    height: 350px;
+}
+.sponsors-overlay{
+    height: 350px;
+}

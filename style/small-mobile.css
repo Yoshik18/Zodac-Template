@@ -16,3 +16,14 @@
 .header-btn2{
     width: 45%;
 }
+/* Sponsors */
+#sponsors{
+    height: 550px;
+}
+.images{
+    display: flex;
+    justify-content: center;
+}
+.sponsors-overlay{
+    height: 550px;
+}
