@@ -12,8 +12,12 @@
 
 /* Sponsors */
 #sponsors{
-    height: 350px;
+    height: 300px;
 }
 .sponsors-overlay{
-    height: 350px;
+    height: 300px;
+}
+/* Form */
+.form-btn{
+    width: 40%;
 }

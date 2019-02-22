@@ -22,6 +22,12 @@
         8. Portfolio
         9. Team
         10. Video BG
+        11. Clients
+        12. Sponsors
+        13. Contact Us
+        14. Contact-Info
+        15. Footer
+
 
 **********************/
 
@@ -73,11 +79,11 @@ body{
     word-wrap: none;
     line-height: 3px;
     box-sizing: border-box;
-    height: 6000px;
     letter-spacing: 1px;
 }
 a{
     color: var(--default-text-color) !important;
+    text-decoration: none !important;
 }
 a:hover{
     color: var(--hover-color) !important;
@@ -502,7 +508,8 @@ a:hover{
     margin-top: 10px;
 }
 
- /********************* 
+ 
+/********************* 
     12. Sponsors
 **********************/
 #sponsors{
@@ -539,5 +546,103 @@ a:hover{
 **********************/
 
 #contact{
-    
+    padding: 50px;
+}
+.form{
+    margin: 50px 0; 
+}
+.form-group{
+    position: relative;
+}
+.form input, .form textarea {
+    border: none;
+    border-bottom: 1px solid #e0e0e0;
+    color: #eee;
+    padding: 15px;
+    padding-left: 35px;
+    width: 100%;  
+    margin: 10px 0;
+    outline: none;
+    color: black;
+
+}
+textarea {
+    overflow: auto;
+    resize: vertical;
+    max-height: 160px;
+    max-width: 100%;
+    line-height: 14px;
+}
+
+.form-icon{
+    position: absolute;
+    top: 18px;
+}
+.form-icon-textarea{
+    position: absolute;
+    top: 15px;
+}
+.form-btn{
+    background: purple;   
+    color: white;
+    width: 10%;
+    display: inline-block;
+    border-radius: 20px;
+    transition: all 1s ease-out;
+    padding: 15px;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.form-btn:hover{
+        outline: none;
+        color: black;
+        background: transparent !important;
+        border: 1px solid black;
+}
+
+ 
+
+/********************* 
+    14. Contact-Info
+**********************/
+.info{
+    padding: 50px;
+    text-align: center;
+    position: relative;
+    z-index: 99;
+}
+.info i{
+    font-size: 40px;
+}
+.info h3{
+    color: black;
+}
+.info p{
+    color: black;
+}
+.info-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+ 
+
+/********************* 
+    15. Footer
+**********************/
+.footer{
+    color: gray;
+    text-align: center;
+    padding: 20px;
+}
+.footer .foot-links li {
+    display: inline-block;
+    margin-left: 20px;
+}
+.foot-links a{
+    color: gray !important;
 }

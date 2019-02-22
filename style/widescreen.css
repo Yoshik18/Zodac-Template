@@ -49,3 +49,14 @@
 .social-link:nth-child(1){
    padding-left: 30px;
 }
+
+
+/* Form */
+.form-btn{
+    width: 30%;
+}
+.footer .foot-links li {
+    display: inline-block;
+    margin: 20px;
+    text-align: center;
+}
